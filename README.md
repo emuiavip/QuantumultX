@@ -8,4 +8,4 @@
 
 有bug请反馈 [@Tmxios](https://t.me/Tmxios)
 
-更新请关注 tg 频道 [https://t.me/Msskymu](
+更新请关注 tg 频道 [https://t.me/Msskymu](https://t.me/Msskymu)
