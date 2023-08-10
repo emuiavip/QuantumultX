@@ -1,15 +1,20 @@
 /*
  *
  *
-脚本功能：网易云解锁VIP
-软件版本：++
-下载地址：苹果商店下载
-脚本作者：伟人
-更新时间：2023.08.03
-电报频道：https://t.me/WeiRenQAQ
-问题反馈：https://t.me/WeiRenOvO
-使用声明：⚠️此脚本仅供学习与交流，
-        请勿转载与贩卖！⚠️⚠️⚠️
+
+> 规则名称：阿里云盘净化+解锁本地会员功能[倍速、码率]
+> QQ群：681835088
+> 公众号：枭木iOS大本营
+> TG交流群：https://t.me/Tmxios 
+> TG频道：https://t.me/Msskymu
+> 枭木官方站：https://tmxios.top
+> 手机卡申请：https://10.tmxios.top
+> 软件源地址：https://app.tmxios.top/appstore
+> 游戏源地址：https://game.tmxios.top/appstore
+> 证书购买或定制：https://p12.tmxios.top
+> 购买卡密地址：https://pay.tmxios.top
+> 更新时间：2023-08-05
+> 转载说明：如需引用请注明出处，谢谢合作！
 *******************************
 [rewrite_local]
 # > 网易云解锁VIP
