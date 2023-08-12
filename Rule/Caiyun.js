@@ -6,7 +6,7 @@
 电报频道：https://t.me/Tmxios
 使用声明：⚠️仅供参考，🈲转载与售卖！
 
-**************************************/
+**************************************
 
 [rewrite_local]
 ^https?:\/\/(biz|wrapper)\.cyapi\.cn\/(.+\/(user.+|visitors|activity)|p\/v\d\/vip_info) url script-response-body https://raw.githubusercontent.com/emuiavip/QuantumultX/main/Rule/Caiyun.js
@@ -15,7 +15,7 @@
 [mitm]
 hostname = *.cyapi.cn, adx.sogaha.cn
 
-
+**************************************/
 
 var tmxios = JSON.parse($response.body);
 const vip = '/vip_info';
