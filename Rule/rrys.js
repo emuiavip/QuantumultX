@@ -16,7 +16,7 @@
 
 
 [rewrite_local]
-^http[s]?:\/\/api.hujuvod.com\/user\/personal\/information url script-response-body https://raw.githubusercontent.com/emuiavip/QuantumultX/main/Rule/aliyun.js
+^http[s]?:\/\/api.hujuvod.com\/user\/personal\/information url script-response-body https://raw.githubusercontent.com/emuiavip/QuantumultX/main/Rule/rrys.js
 
 [mitm]
 hostname = api.hujuvod.com
