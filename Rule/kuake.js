@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/drive.*\.quark\.cn\/.+\/clouddrive\/(member.+|distribute\/detail.+|capacity\/growth\/info) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/kuake.js
+^https?:\/\/drive.*\.quark\.cn\/.+\/clouddrive\/(member.+|distribute\/detail.+|capacity\/growth\/info) url script-response-body https://raw.githubusercontent.com/emuiavip/QuantumultX/main/Rule/kuake.js
 
 [mitm]
 hostname = drive*.quark.cn
@@ -18,14 +18,14 @@ hostname = drive*.quark.cn
 
 
 var body = $response.body;
-var chxm1023 = JSON.parse(body);
+var tmxios = JSON.parse(body);
 
 const vipa = '/clouddrive/member';
 const vipb = '/clouddrive/distribute/detail';
 const vipc = '/clouddrive/capacity/growth/info';
 
 if ($request.url.indexOf(vipa) != -1){
-  chxm1023.data = {
+  tmxios.data = {
     "member_type": "SUPER_VIP",
     "image_backup": 1,
     "deep_recycle_stat": {
@@ -67,7 +67,7 @@ if ($request.url.indexOf(vipa) != -1){
 }
 
 if ($request.url.indexOf(vipb) != -1){
-  chxm1023.data = {
+  tmxios.data = {
     "last_id": 0,
     "last_page": true,
     "distribute_detail": [{
@@ -83,7 +83,7 @@ if ($request.url.indexOf(vipb) != -1){
 }
 
 if ($request.url.indexOf(vipc) != -1){
-  chxm1023.data = {
+  tmxios.data = {
     "member_type": "SUPER_VIP",
     "super_vip_exp_at": 4092599349000,
     "use_capacity": 55029395707,
@@ -135,4 +135,4 @@ if ($request.url.indexOf(vipc) != -1){
   };
 }
 
-$done({body : JSON.stringify(chxm1023)});
+$done({body : JSON.stringify(tmxios)});
