@@ -9,13 +9,11 @@
 **************************************
 
 
-[rewrite_local]
+# > 08 在线之家[网页优化]@ddgksf2013 - 网站地址：https://www.zxzjhd.com/
 ^https?:\/\/www\.zxzjhd\.com\/($|[0-9a-zA-Z=_/-]+\.html$) url script-response-body https://raw.githubusercontent.com/emuiavip/QuantumultX/main/Rule/zxzjhd.js
 
-[mitm]
-hostname=www.zxzjhd.com,
 
-
+hostname=www.zxzjhd.com
 
 var body = $response.body.replace(
   /<head>/,
