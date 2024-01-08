@@ -13,7 +13,7 @@
 ^https?:\/\/www\.zxzjhd\.com\/($|[0-9a-zA-Z=_/-]+\.html$) url script-response-body https://raw.githubusercontent.com/emuiavip/QuantumultX/main/Rule/zxzjhd.js
 
 [mitm]
-hostname=www.zxzjhd.com, m.nivod4.tv, *.freeok.*, *netflix*, *bdys*,*cupfox*,*cokemv*,*pornhub.com,*lezhutv*,*bimi*,18comic.org,*5y*,*gimy*,*tkznp*,*czzy*,*ikandy*,*libvio*
+hostname=www.zxzjhd.com,
 
 
 
