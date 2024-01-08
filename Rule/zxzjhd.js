@@ -10,7 +10,7 @@
 
 
 [rewrite_local]
-^http[s]?:\/\/www.zxzjhd.com\/user\/personal\/information url script-response-body https://raw.githubusercontent.com/emuiavip/QuantumultX/main/Rule/zxzjhd.js
+^https?:\/\/www\.zxzjhd\.com\/($|[0-9a-zA-Z=_/-]+\.html$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/adguard.js
 
 [mitm]
 hostname = www.zxzjhd.com
