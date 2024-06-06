@@ -1,6 +1,7 @@
 #!name = Soul净化,解锁广场私聊
 #!author = 枭木
-#!update = 2024-01-25 13:42
+#!tg = https://t.me/Tmxios
+#!update = 2024-06-06 13:42
 
 
 ^https:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
