@@ -62,9 +62,8 @@ $done({ body: JSON.stringify(obj) });
 
 
 
-
-
-  
+**************************************
+[rewrite_local]  
 ^https:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list url script-response-body https://raw.githubusercontent.com/emuiavip/QuantumultX/main/Rule/soul.js
 ^https:\/\/post\.soulapp\.cn\/hot\/soul\/rank url script-response-body https://raw.githubusercontent.com/emuiavip/QuantumultX/main/Rule/soul.js
 ^https:\/\/gateway-mobile-gray\.soulapp\.cn\/mobile\/app\/version\/queryIos url script-response-body https://raw.githubusercontent.com/emuiavip/QuantumultX/main/Rule/soul.js
@@ -80,5 +79,6 @@ $done({ body: JSON.stringify(obj) });
 ^https:\/\/post\.soulapp\.cn\/v2\/post\/recSquare\/subTabs url script-response-body https://raw.githubusercontent.com/emuiavip/QuantumultX/main/Rule/soul.js
 
 
-
+[mitm]
 hostname = api-account.soulapp.cn, api-a.soulapp.cn, api-pay.soulapp.cn, gateway-mobile-gray.soulapp.cn, api-chat.soulapp.cn, 8.210.3.170, 47.75.72.47, post.soulapp.cn, api-user.soulapp.cn,api-account.soulapp.cn,ssp.soulapp.cn,47.110.187.87
+*************************************/
